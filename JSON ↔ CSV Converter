@@ -1,0 +1,11 @@
+bash# JSON → CSV
+python convert_data.py data.json output.csv
+
+# CSV → JSON
+python convert_data.py data.csv output.json --indent 2
+
+# Flatten nested JSON before converting
+python convert_data.py nested.json flat.csv --flatten
+
+# Print result to terminal
+python convert_data.py data.json --stdout
