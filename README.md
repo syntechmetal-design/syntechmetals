@@ -89,3 +89,4 @@ my_project/
 
 MIT
 https://www.syntechmetal.com
+https://www.syntechmetal.com/aluminum-extrusions-products/aluminum-trims/
