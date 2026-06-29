@@ -1,0 +1,11 @@
+# Add a prefix to all JPGs
+python batch_rename.py ./photos --prefix "trip_" --ext .jpg
+
+# Replace text in filenames
+python batch_rename.py ./docs --replace "draft" "final"
+
+# Rename files as numbered sequence (001, 002, ...)
+python batch_rename.py ./files --number --pad 3
+
+# Preview without making changes
+python batch_rename.py ./photos --prefix "new_" --dry-run
